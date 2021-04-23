@@ -1,0 +1,50 @@
+2021/3/11 第三周工作
+G4在TSS上游以及在geneomic region的分布情况
+G4上下游的TMP-seq数据（力的情况）
+
+工作细分，首要的工作是，如何判别G4 ChIP-seq的正负链情况
+从G4 peak上截取基因组上位置，获取G4的sequence，然后用软件判别该段sequence是否为G4
+
+实现G4 ChIP-seq的细分，
+详细分到距离summits的远近，进行统计，做更多的数据分析
+分类原则一：None(0);unique(1);Same strand(>=2 and 同链); Different strand(>=2 and 不同链)
+分类原则二：根据远近进行统计获得的大部分区域选取阈值，用于筛选掉一些不符合要求的motif
+
+G4 ChIP-seq的分类法则三
+将每个单独的rep进行G4 Hunter motif 的检索，获取单独一个rep的motif
+然后针对每个module的四个rep，进行alignment，找出某一个位点motif在不同rep中的hit数量
+根据这些hit数量进行分类
+4：stable motif
+2-3：模糊型motif
+1：Negative motif
+
+或者，直接针对全体rep进行比对，找出一个阈值，大于这个阈值的我们认为是稳定的motif，小于等于1的我们认为是非motif
+而介于之间的我们认为是不确定的motif
+
+我们发现大多数rep关联性很高，部分rep之间相关性低，主要是VHIO179_284(rep1)，STG316(rep3)，STG201_181(rep2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
