@@ -1,0 +1,60 @@
+GSE78984:
+SRR3211663 GSM2083121 mm Neural Progenitor Cell
+SRR3211664 GSM2083122 mm Neural Progenitor Cell
+SRR3211665 GSM2083123 mm Neural Progenitor Cell
+SRR3211666 GSM2083124 mm Neural Progenitor Cell 64U
+SRR3211667 GSM2083125 mm Neural Progenitor Cell
+SRR3211668 GSM2083126 mm Neural Progenitor Cell 
+SRR3211669 GSM2083127 mm Neural Progenitor Cell 16U
+SRR3211670 GSM2083128 mm Neural Progenitor Cell 64U
+SRR3211671 GSM2083129 mm Embryonic neural progenitors
+SRR3211672 GSM2083130 mm Embryonic neural progenitors
+SRR3211673 GSM2083131 mm Embryonic neural progenitors 16U
+SRR3211674 GSM2083132 mm Embryonic neural progenitors 64U
+SRR3211675 GSM2083133 mm Embryonic neural progenitors
+SRR3211676 GSM2083134 mm Embryonic neural progenitors
+SRR3211677 GSM2083135 mm Embryonic neural progenitors 16U
+SRR3211678 GSM2083136 mm Embryonic neural progenitors 64U
+SRR3211679 GSM2083137 hg K562 cells
+SRR3211680 GSM2083138 hg K562 cells
+SRR3211681 GSM2083139 hg K562 cells 79.2U
+SRR3211682 GSM2083140 hg K562 cells 304U
+
+GSE117870:
+SRR7621147-SRR7621161 GSM3312888 iPS MNase-Seq hg 34D6, male, human iPS cell line
+SRR7621162-SRR7621176 GSM3312889 NPC MNase-Seq hg 34D6 iPS cells-derived neural progenitors
+
+
+GSE49140 SRR942497-SRR942500 GSM1194221 hg human embryonic stem cell MNase-Seq H9
+SRR452463-SRR452466 GSM907784 hg lymphoblastoid cell line
+
+GSE139557:
+GSM4143687 SRR10360236 CD4+T_9h_WT_1_S1 hg T-cell
+GSM4143688 SRR10360237 CD4+T_9h_WT_2_S5 hg T-cell
+GSM4143689 SRR10360238 CD4+T_48h_WT_1_S3 hg T-cell
+GSM4143690 SRR10360239 CD4+T_48h_WT_2_S7 hg T-cell
+GSM4143691 SRR10360240 CD4+T_9h_IN_1_S2 hg T-cell
+GSM4143692 SRR10360241 CD4+T_9h_IN_2_S6 hg T-cell
+
+GSE134297:
+SRR9685628 GSM3941588 A_Inp_H_r1_R1 hg Human breast epithelial cells, immortalized. none
+SRR9685629 GSM3941589 A_Inp_H_r2_R1 hg Human breast epithelial cells, immortalized. none
+SRR9685630 GSM3941590 A_Inp_L_r1_R1 hg Human breast epithelial cells, immortalized. none
+SRR9685631 GSM3941591 A_Inp_L_r2_R1 hg Human breast epithelial cells, immortalized. none
+SRR9685632 GSM3941592 A_shH2AZ_Inp_H_r1_R1 hg Human breast epithelial cells, immortalized. shRNA targeting H2A.Z, retroviral transduction
+SRR9685633 GSM3941593 A_shH2AZ_Inp_H_r2_R1 hg Human breast epithelial cells, immortalized. shRNA targeting H2A.Z, retroviral transduction
+SRR9685634 GSM3941594 A_shH2AZ_Inp_L_r1_R1 hg Human breast epithelial cells, immortalized. shRNA targeting H2A.Z, retroviral transduction
+SRR9685635 GSM3941595 A_shH2AZ_Inp_L_r2_R1 hg Human breast epithelial cells, immortalized. shRNA targeting H2A.Z, retroviral transduction
+SRR9685640 GSM3941600 A_TGFb_Inp_H_r1_R1 hg Human breast epithelial cells, immortalized. TGF-beta-1 added to growth medium
+SRR9685641 GSM3941601 A_TGFb_Inp_H_r2_R1 hg Human breast epithelial cells, immortalized. TGF-beta-1 added to growth medium
+SRR9685642 GSM3941602 A_TGFb_Inp_L_r1_R1 hg Human breast epithelial cells, immortalized. TGF-beta-1 added to growth medium
+SRR9685643 GSM3941603 A_TGFb_Inp_L_r2_R1 hg Human breast epithelial cells, immortalized. TGF-beta-1 added to growth medium
+SRR9685648 GSM3941608 CA1a_Inp_H_r1_R1 hg Human breast epithelial cells, virally transformed. none
+SRR9685649 GSM3941609 CA1a_Inp_H_r2_R1 hg Human breast epithelial cells, virally transformed. none
+SRR9685650 GSM3941610 CA1a_Inp_L_r1_R1 hg Human breast epithelial cells, virally transformed. none
+SRR9685651 GSM3941611 CA1a_Inp_L_r2_R1 hg Human breast epithelial cells, virally transformed. none
+
+GSE100401
+GSE121986
+
+
