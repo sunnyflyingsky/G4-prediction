@@ -377,13 +377,20 @@
 
 ###########################################
 2021/4/8 record
-	in vivo G4 motif的验证
-	可以用全基因组G4的motif绘制一个分布图，或者occupancy图，区别于ChIP-seq的做出来的图
-	可以着手绘制ROC曲线了
-	可以进行gene TSS上下游细分到bp的G4 motif 分值图
-	同时我们可以进行summits上下游或者peak内部的G4 motif 的分值图
-	coverage的统计map
-	igv的信号值图谱
+	(-：已完成;+：未完成)
+	-in vivo G4 motif的验证
+	-可以用全基因组G4的motif绘制一个分布图，或者occupancy图，区别于ChIP-seq的做出来的图
+	-可以着手绘制ROC曲线了
+	-可以进行gene TSS上下游细分到bp的G4 motif 分值图
+	-同时我们可以进行summits上下游或者peak内部的G4 motif 的分值图
+	-coverage的统计map
+	-igv的信号值图谱
+	-correlation的图，方便比较不同模型间的差异
+	+macs2的双边测序模型图
+	+correlation的heatmap图，更加明显
+	+绘制G4 peak summits处的G4信号与MNase-seq信号的散点图
+	+各个散点图关系的具体数值relationship的具体计算值（ATAC MNase G4）
+	+计算140w+的motif中有多少是位于peak区域的。
 
 ############################################
 2021/4/8 record
@@ -423,6 +430,40 @@
 	胚胎发育
 	G4和胚胎发育
 	G4的荧光标记，在不同胚胎时期的G4分布状况
+	
+	1.NLS是否适合于斑马鱼，以及N端C端中间的问题
+	NLS只是一个统称，对应不同的蛋白应当有不同的NLS区域，不同的NLS可能都具有入核的效果
+	两种NLS一种依靠importin-α/β，另一种则不依靠，
+	不清楚斑马鱼是否依靠importin-α/β入核，但是有研究表明一种罗非鱼依靠这种方式入核
+	NCBI上可以查询到斑马鱼有inportin
+	
+	2.miR430上为啥有10号染色体
+	miR430-a1？？？不知道，确实有
+	
+	
+	3.protein A可以连接的荧光染料，哪个会比较亮，尤其是适合在斑马鱼中
+	GFP？*EGFP？FITC？CY3？CY5？HRP？*Photo-Flo 200？
+	绿色荧光素标记蛋白A,FITC-Protein A, FITC labeled
+	红色罗丹明标记修饰蛋白A，RBITC-Protein AProtein A
+	绿色荧光罗丹明B标记修饰蛋白A,Protein A, Rhodamine labeled
+	辣根酶标记蛋白A；HRP-Protein A ;HRP labeled
+	生物素标记蛋白A；Biotin-Protein A;Biotin labeled
+	*菁染料Cy3标记蛋白A；Cy3-Protein A, Cy3 labeled
+	蓝色荧光Cy5标记蛋白A；Cy5-Protein A,Cy5 labeled
+	紫色荧光Cy5.5标记蛋白A；Cy5.5-Protein A , Cy5.5 labeled
+	菁染料Cy7标记蛋白A；Cy7-Protein A,Cy7 labeled
+	菁染料Cy7.5标记蛋白A；Cy7.5-Protein A,Cy7.5 labeled
+	ICG吲哚菁绿标记蛋白A；ICG-Protein A;ICG labeled
+	马来酰亚胺修饰蛋白A；Protein A-MAL；maleimide labeled
+	巯基化蛋白A；Thiol-Protein A
+	FITC-Protein A
+	RB-Protein A
+	CY3-Protein A
+	CY5-Protein A
+	CY7-Protein A
+	Biotin-Protein A
+	HRP-Protein A
+	Maleimide-Protein A
 	
 	
 	
