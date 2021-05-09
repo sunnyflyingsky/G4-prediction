@@ -52,11 +52,14 @@ def pipline(inpath,outpath):
 
 
 if __name__=='__main__':
-    inpath = 'prediction/res2/hg19_G4_predict_region.bed'
-    outpath = 'prediction/res2/G4_positive_4.bed'
-    refpath = 'data/source_data/K562_BG4-ChIP_peaks_comp.narrowPeak'
-    score_s(inpath,refpath,outpath)
+    #inpath = 'prediction/res2/hg19_G4_predict_region.bed'
+    #outpath = 'prediction/res2/G4_positive_4.bed'
+    #refpath = 'data/source_data/K562_BG4-ChIP_peaks_comp.narrowPeak'
+    #score_s(inpath,refpath,outpath)
     #inpath = 'prediction/res2/G4_positive_3.bed'
     #outpath = 'prediction/res2/G4_positive_4.bed'
     #pipline(inpath,outpath)
+    inpath = 'prediction/res_Last/G4_hg19_predict_region.bed'
+    outpath = 'prediction/res_Last/G4_positive_hg19.bed'
+    score(inpath,outpath)
 

@@ -14,43 +14,37 @@ def predict(inpath,refpath,modelpath,outpath):
     strand = []
     PredictModel = joblib.load(filename=modelpath)
     Y = []
-    with open(refpath) as read_object:
-        for line in read_object:
-            score = float(line.strip().split('\t')[-1])
-            if score>0:
-                strand.append(1)
-            else:strand.append(-1)
     t=0
     print('step1')
     with open(inpath) as read_object: 
         for line in read_object: 
             t+=1
             info = line.strip().split('\t')
-            X = [[]]
+            sig = []
             for num in info:
-                X[0].append(float(num))#*strand[t-1])
-            Y.append(PredictModel.predict(X))
-            print(t/141173)
+                sig.append(float(num))
+            X = [sig]
+            Y.append(PredictModel.predict(X)[0])
+            print(t/1141173)
     print('step2')
+    print(Y.count(1))
     read_object = open(refpath)
     t = 0 
     with open(outpath,'w') as write_object:
         for line in read_object:
             info = line.strip().split('\t')
-            write_object.write('\t'.join(info)+'\t'+str(Y[t][0])+'\n')
+            write_object.write('\t'.join(info)+'\t'+str(Y[t])+'\n')
             t+=1
-
-
-
 
 if __name__=='__main__':
     print('run!')
-    inpath = 'data/source_data/G4Hunter_TEST_82_matrix_siteprof1'
-    refpath = 'data/source_data/G4_TEST_predict_region_sorted.bed'
-    modelpath1 = 'data/train_model_18.m'
-    #modelpath2 = 'data/train_model_TrueLable.m'
-    outpath = 'prediction/res2/G4_TEST_predict_region_2.bed'
-    predict(inpath,refpath,modelpath1,outpath)
+    #inpath = 'data/source_data/G4Hunter_TEST_82_matrix_siteprof1'
+    inpath = 'data/source_data/G4_motif_hg19_matrix_siteprof1'
+    refpath = 'data/source_data/G4Hunter_predict_region.bed'
+    #modelpath1 = 'data/train_model_18.m'
+    modelpath2 = 'data/train_model_old.m'
+    outpath = 'prediction/res_Last/G4_hg19_predict_region.bed'
+    predict(inpath,refpath,modelpath2,outpath)
     print('end!')
 
 

@@ -35,15 +35,16 @@ def statistic(inpath,refpath):
                 P+=1
             elif t==flag and flag==0:
                 M+=1
-            #print(L/3839)
+            print(L/1411732)
     print(P,M,P+M)
-    print(M/L)
+    print((P+M)/L,P/L,M/L)
     #print(P/1411732)
 
 def plot_ROC(inpath,refpath):
     '''
     绘制ROC曲线
     '''
+
     X,Y = [0],[0]
     Positive_peak = {}
     with open(refpath) as read_object:
@@ -153,9 +154,9 @@ def plot_image(inpath,refpath):
 
 
 if __name__=='__main__':
-    #inpath = 'prediction/res2/G4_positive_5.bed'
-    inpath = 'prediction/res2/G4_TEST_predict_region.bed'
+    inpath = 'prediction/res_Last/G4_positive.bed'
+    #inpath = 'prediction/res_Last/G4_TEST_predict_region.bed'
     refpath = 'data/source_data/K562_BG4-ChIP_peaks_comp.narrowPeak'
-    statistic(inpath,refpath)
-    #plot_ROC(inpath,refpath)
+    #statistic(inpath,refpath)
+    plot_ROC(inpath,refpath)
     #plot_image(inpath,refpath)
